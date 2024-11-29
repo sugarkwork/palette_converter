@@ -33,7 +33,8 @@ class PaletteConverter:
         )
 
     def convert(self, palette:str):
-        rgb_colors = [self.hex_to_rgb(color) for color in palette]
+        palettes = palette.strip().splitlines()
+        rgb_colors = [self.hex_to_rgb(color.strip()) for color in palettes]
         return (str(rgb_colors), )
 
 
