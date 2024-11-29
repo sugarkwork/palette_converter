@@ -1,0 +1,15 @@
+[project]
+name = "palette converter"
+description = "palette converter"
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/sugarkwork/palette_converter"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "sugarknight"
+DisplayName = "palette_converter"
+Icon = ""
